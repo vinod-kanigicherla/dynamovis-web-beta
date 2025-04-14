@@ -1,0 +1,54 @@
+.hide {
+    display: none;
+}
+
+.loaderButton {
+    padding: 3px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+
+    box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.23);
+
+    background: #fcfcfc;
+    color: black;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.publicDatasetsMessage {
+    margin-top: 20px;
+   
+    color: #1D2D44;;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.datasetsList {
+    margin-top: 5px;
+    
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+
+.btnSuccess{
+    --bs-btn-color: #D2b356;
+    --bs-btn-active-border-color: #D2b356;
+    --bs-btn-active-bg: #D2b356;
+    --bs-btn-bg: #D2b356;
+    --bs-btn-border-color:#D2b356;
+    --bs-btn-hover-border-color: #D2b356;
+    --bs-btn-hover-bg: #D2b356;
+}
+
+
+
+
+.datasetButton+.datasetButton {
+    margin-left: 0px;
+}

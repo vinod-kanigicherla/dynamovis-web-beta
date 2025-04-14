@@ -1,0 +1,45 @@
+.activeId,
+.inactiveId {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    gap: 10;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.idContainer{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    gap: 10;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.activeId {
+    color: black;
+}
+
+.inactiveId {
+    color: #bbb;
+}
+
+.padding {
+    margin-left: 10px
+}
+
+.time_range_box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    left: 100%; /* Position to the right of the icon */
+    top: 0;
+    margin-left: 3px;
+    width: 100px;
+}

@@ -1,0 +1,258 @@
+.LateralPanel {
+    width: 100vw;
+    background: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+
+    position: fixed; /* Position the element relative to the viewport */
+    bottom: 0;      /* Position it at the bottom */
+    right: 0;
+    z-index: 10000;  
+    
+}
+
+.Panel2{
+    width: 20%;
+    height: 93%;
+    background: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+
+    position: fixed; /* Position the element relative to the viewport */
+    top: 0;      /* Position it at the bottom */
+    left: 5em;
+
+    z-index: 9999;  
+    padding-top: 10px;
+    overflow: scroll;
+
+}
+
+.toggleWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.space {
+    height: 20px;
+}
+
+.toggle {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.div {
+    border-top: 1px solid #aaa;
+    height: 0;
+    margin: 20px -20px;
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+}
+
+.selectorLabel {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.listGroup{
+    max-height: 300px;
+    overflow:scroll;
+}
+
+.displayingIdsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom:20px;
+
+}
+
+.activeId {
+    font-weight: bold;
+}
+
+.timeContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 13px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.copyButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.urlButton,
+.iframeButton {
+    cursor: pointer;
+    padding: 0 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.iframeButton {
+    border-left: 1px solid black;
+}
+
+.urlButton {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tag {
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selectorWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.baseMapsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+    padding-top: 10%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+    height: 100%
+}
+
+.baseMapContainer {
+    width: 40%;
+    height: 40;
+    text-align: center;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.baseMapContainer>img {
+    width: 100%
+}
+
+.Section {
+    padding:0px 30px;
+}
+
+.Section>.title {
+    margin: 0px -10px;
+    background: #ccc;
+    text-align: left;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-top: 1px solid #777;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#menu>.disabled,
+#menu>.menuItem,
+#menu>.menuSelected {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 10px 0 7px 0;
+}
+
+#menu>.disabled>.label,
+#menu>.menuSelected>.label,
+#menu>.menuItem>.label {
+    font-size: 13px;
+}
+
+#menu>.menuItem {
+    background: #054052;
+    color: white;
+}
+
+#menu>.menuSelected {
+    background: white;
+}
+
+#menu>.disabled {
+    background: #aaa;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.subsectionOff,
+.subsection {
+    /* border: 1px solid black; */
+    margin-top: 10px;   
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.subsectionOff {
+    opacity: 50%;
+}
+
+.flexFiller {
+    flex: 1;
+}
+
+.dataSetMessage {
+    margin: 20px;
+}
+
+#sidenav-4 {
+    z-index: 11000;
+}
+
+.dropDown {
+    color: black;
+    font-size: small;
+}
+
+.listGroup {
+    height: 300px;
+    overflow-y: auto;
+}

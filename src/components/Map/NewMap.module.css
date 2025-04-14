@@ -1,0 +1,42 @@
+#Map_split{
+   
+    /*margin-left: 18%;*/
+    /*margin-right:18%;*/
+    /*height: 100px;*/
+
+    
+    
+}
+#Map{
+/* 
+    margin-left: 20%; */
+    /* margin-right:18%; */
+    /*height: 100px;*/
+
+    
+    
+}
+
+
+
+.dateTag {
+    position: absolute;
+    bottom: 12.5%;
+    right: 20%; 
+    margin: auto;
+    z-index: 10000;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.legendTag { 
+    position: absolute;
+    bottom: 12.5%;
+    right: 60%; 
+    margin: auto;
+    z-index: 10000;
+    font-size: 16px;
+    color: #eee;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-size: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 0; /* Remove the default padding */
+  margin: 0; /* Remove the default margin */
+}
+
+.handle {
+  cursor: move;
+  padding: 8px;
+  background-color: #d2b356;
+  color: black;
+}
+
+
+@font-face {
+  font-family: Roboto;
+  src: url(./assets/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url(./assets/CircularStd-Medium.ttf);
+}
+@font-face {
+  font-family: CircularStdLight;
+  src: url(./assets/CircularStd-Book.ttf);
+}

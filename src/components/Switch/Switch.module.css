@@ -1,0 +1,50 @@
+#Switch {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    align-items: center;
+
+    font-size: 10px;
+}
+
+.label {
+    margin-bottom: 4px;
+}
+
+.buttonsContainer {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+    border-radius: 15px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.option,
+.optionActive {
+    padding: 5px;
+    width: 50px;
+    cursor: pointer;
+    flex: 1;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.option {
+    background: #ddd;
+}
+
+.optionActive {
+    background: #eee;
+    font-weight: bold;
+}

@@ -1,0 +1,141 @@
+.palettePicker {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.paletteDropdown {
+    top: 17px;
+    position: absolute;
+    background: white;
+}
+
+.palette {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.colorSample {
+    height: 15px;
+    width: 15px;
+}
+
+.maxTag,
+.minTag {
+    position: absolute;
+    font-size: 10px;
+}
+
+.rightLine,
+.leftLine {
+    position: absolute;
+    height: 130%;
+    border-left: 1px solid black;
+    transform: translateY(-30%);
+}
+
+.minTag {
+    transform: translateX(-50%) translateY(-150%);
+}
+
+.maxTag {
+    transform: translateX(50%) translateY(-150%);
+}
+
+.minTag,
+.leftLine {
+    left: 0;
+}
+
+.maxTag,
+.rightLine {
+    right: 0;
+}
+
+.buttons {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    z-index: 100;
+}
+
+.buttonDropdown {
+    transform: translateY(20px);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.34);
+}
+
+.colorPicker {
+    width: 15px;
+    height: 15px;
+}
+
+.diagonal {
+    height: 20px;
+    border: 1px solid red;
+    transform: rotate(45deg);
+    width: 0;
+}
+
+.cross {
+    width: 15px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.triangles {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    transform: translateY(15px);
+}
+
+.triangle {
+    width: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.dropdownBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.dropdownItem {
+    font-size: small;
+}
+
+
+.btnSuccess {
+    color: black;
+    font-size: small;
+}
+
+.dropdownMenuStyle {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.dropdownStyle {
+    margin-top: 20px;
+}

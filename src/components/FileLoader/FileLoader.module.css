@@ -1,0 +1,41 @@
+.hide {
+    display: none;
+}
+
+.loaderButton {
+    padding: 3px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+
+    box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.23);
+
+    background: #fcfcfc;
+    color: black;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.publicDatasetsMessage {
+    margin-top: 10px;
+}
+
+.datasetsList {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.datasetButton {
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.datasetButton+.datasetButton {
+    margin-left: 10px;
+}

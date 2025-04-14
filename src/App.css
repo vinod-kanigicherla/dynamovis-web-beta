@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.TwoDMap {
+   margin-left: 20%;
+  width: 50%;
+
+}
+
+.TwoDMapSingle{
+  /* margin-left: 20%; */
+  margin: auto;
+  width: 80%;
+
+}
+
+.spaceCube{
+  padding-left: 500px;
+}
+
+.leaflet-container {
+  z-index: 1;
+  height: 100%;
+}
+
+.top-layer-component-left {
+  /* Position the component absolutely within the container */
+  position: absolute;
+  
+  /* Adjust the top, right, bottom, or left properties as needed to position the component */
+  top: 30;
+left: 30;
+  /* You can use 'left' or 'right' or both, depending on your layout */
+  
+  /* Optional: Set a width and height for the component */
+  width: 200px;
+  height: 100px;
+  
+  /* Set a higher z-index to bring this component to the top layer */
+  z-index: 2;
+}
+
+.top-layer-component-right {
+  /* Position the component absolutely within the container */
+  position: absolute;
+  
+  /* Adjust the top, right, bottom, or left properties as needed to position the component */
+  top: 0;
+right: 5px;
+  /* You can use 'left' or 'right' or both, depending on your layout */
+  
+  /* Optional: Set a width and height for the component */
+  width: 200px;
+  height: 100px;
+  
+  /* Set a higher z-index to bring this component to the top layer */
+  z-index: 3;
+}

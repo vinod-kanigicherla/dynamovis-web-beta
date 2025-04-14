@@ -1,0 +1,39 @@
+.Legend {
+    font-size: 13px;
+    margin-bottom: 10%;
+}
+
+.minMax {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    transform: translateY(15px);
+}
+
+.title{
+
+    color:black;
+}
+.min,
+.max {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+
+.min {
+    transform: translateX(-50%);
+}
+
+.max {
+    transform: translateX(50%);
+}
+
+.line {
+    border-left: 1px solid black;
+    height: 20px;
+    width: 0;
+}

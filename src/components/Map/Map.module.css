@@ -1,0 +1,31 @@
+#Map {
+    flex: 1;
+    position: relative;
+}
+
+#MapPreconf {
+    width: 50vw;
+    position: relative;
+}
+
+.dateTag {
+    position: absolute;
+    bottom: 100px;
+    right: 20%; 
+    margin: auto;
+    z-index: 10000;
+    font-size: 16px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.legendContainer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 100;
+    padding: 10px;
+}

@@ -1,0 +1,8 @@
+Tiger ID:
+Mother tiger: 131343
+Neighbor female: 229011
+Cub 1: 229012
+Male tiger: 229022
+Cub 2: 229032
+
+Tigers are tracked between September 2018 and August 2020, but not all at the same time, with a sampling rate of one hour. For each pair, I extract their trajectory data with maximum common duration available. 

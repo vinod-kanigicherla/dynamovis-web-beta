@@ -1,0 +1,140 @@
+.TimeBar {
+    padding: 0 10px;
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid black;
+    cursor: pointer;
+    position: relative;
+}
+
+.settings {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.dropDown{
+    --bs-btn-color: #D2b356;
+    --bs-btn-active-border-color: #D2b356;
+    --bs-btn-active-bg: #D2b356;
+    --bs-btn-bg: #D2b356;
+    --bs-btn-border-color:#D2b356;
+    --bs-btn-hover-border-color: #D2b356;
+    --bs-btn-hover-bg: #D2b356;
+}
+#pad {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%) translateX(-1px);
+}
+
+.Ball {
+    width: 14px;
+    height: 14px;
+    background: black;
+    border-radius: 50%;
+    transform: translateX(-7px) translateY(-7px);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.activeLoop,
+.nonActiveLoop {
+    width: 40%;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 13px;
+}
+
+.activeLoop {
+    color: black;
+}
+
+.nonActiveLoop {
+    color: #bbb;
+}
+
+.btn {
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.label{
+    font-weight: bold;
+    color: #000;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.dateTag {
+    position: absolute;
+    top:25%;
+    /* bottom: 100px; */
+    right: 25%; 
+    margin: auto;
+    z-index: 10000;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.toggleFont{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.toggle  {
+    position: absolute;
+    top:0%;
+    /* bottom: 100px; */
+    right: 5%; 
+    margin: auto;
+    z-index: 10000;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.legendContainer {
+    position: absolute;
+    /* bottom: 100px; */
+    right: 60%; 
+    height: auto;
+    margin: auto;
+    z-index: 10000;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.splitRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.loopIcon {
+    margin-right: 7px;
+}
